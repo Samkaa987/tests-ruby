@@ -51,3 +51,16 @@ def power(num7, num8)
 	return num7 ** num8
 	
 end
+
+
+
+
+
+
+def factorial(a)
+	nb = 1
+	1.upto(a) do |i|
+		nb *= i
+	end
+	return nb
+end
